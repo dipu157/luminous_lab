@@ -1,0 +1,19 @@
+
+
+Ok 1. user_id from "marketplace_user_accesses"
+ok 2. title from "marketplace_products" name
+ok 3. categoryId from "marketplace_products" er category_id column
+
+ok 4. brand from "marketplace_product_brand" brand_name column
+ok 5. range_by holo type. ekhane type hishabe ek_price/vk_price/profit/quantity. ek_price or vk_price holo minPrice to maxPrice from "marketplace_products"
+ok 6. filter_by == transferred/not_transferred from "mp_core_drm_transfer_products" (if the product is in this table that means the product is transfer)
+*** filter_by == bestseller from "marketplace_products"
+*** filter_by == reviewfrom "marketplace_products"
+***7. availability == available/sold_out from "marketplace_products" stock (all stock>0 or after selecting)
+ok 8. Gender = male/female from "marketplace_products" gender
+
+ok. Material from "marketplace_products" material
+
+ok. Color from "marketplace_products" item_color
+
+ok. Size from "marketplace_products" item_size
