@@ -17,3 +17,5 @@ ok. Material from "marketplace_products" material
 ok. Color from "marketplace_products" item_color
 
 ok. Size from "marketplace_products" item_size
+
+All done from above
